@@ -13,11 +13,11 @@ def index():
         {
             'author': {'username': 'Bob'},
             'body': 'Hello everyone, this is Bob!'
-        }
+        },
         {
             'author': {'username': 'Roy'},
             'body': 'Hi there, my name is Roy!'
-        }
+        },
         {
             'author': {'username': 'Banjo'},
             'body': 'Have you seen the avengers?'
