@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home page - Microblog</title>
+        {% if title %}
+        <title>{{ title }} - Microblog</title>
+        {% else %}
+        <title>Home - Microblog</title>
+        {% endif %}
     </head>
     <body>
         <h1>Hello, {{ user.username }}!</h1>
