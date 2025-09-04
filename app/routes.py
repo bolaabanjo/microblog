@@ -4,7 +4,7 @@ from app.forms import LoginForm
 
 # ...
 
-@app.routes('/login')
+@app.route('/login')
 def login():
     form = LoginForm()
     return render_template('login.html', title='Sign In', form=form)
